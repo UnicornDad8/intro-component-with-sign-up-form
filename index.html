@@ -21,18 +21,18 @@
     class="w-screen h-auto md:h-screen bg-[#FF7A7A] bg-[url(./images/bg-intro-mobile.png)] md:bg-[url(./images/bg-intro-desktop.png)]"
   >
     <main
-      class="h-full md:max-w-6xl max-w-full w-full mx-auto grid md:grid-rows-1 grid-rows-2 md:grid-cols-2 grid-cols-1 py-6 px-4 gap-x-2 lg:gap-x-8"
+      class="lg:h-full h-auto lg:max-w-6xl max-w-full w-full mx-auto lg:grid lg:grid-rows-1 lg:grid-cols-2 flex flex-col p-4 gap-6"
     >
       <section
-        class="w-full h-full -mt-10 md:mt-0 row-start-1 row-end-2 col-start-1 col-end-2 flex flex-col justify-center items-start md:gap-10 gap-6"
+        class="w-full h-fit lg:h-full py-6 lg:row-start-1 lg:row-end-2 lg:col-start-1 lg:col-end-2 flex flex-col justify-center items-start lg:gap-10 gap-6"
       >
         <h1
-          class="text-3xl md:text-5xl text-center md:text-left poppins-bold text-white opacity-90"
+          class="text-xl md:text-3xl lg:text-5xl text-center w-[200px] md:w-[300px] lg:w-full lg:text-left mx-auto lg:mx-0 poppins-bold text-white opacity-90"
         >
           Learn to code by watching others
         </h1>
         <p
-          class="text-sm md:text-base text-center md:text-left poppins-regular text-white opacity-80"
+          class="text-xs md:text-sm lg:text-base text-center lg:text-left poppins-regular text-white opacity-80"
         >
           See how experienced developers solve problems in real-time. Watching
           scripted tutorials is great, but understanding how developers think is
@@ -40,11 +40,13 @@
         </p>
       </section>
       <section
-        class="w-full h-full -mt-20 md:mt-0 md:row-start-1 row-start-2 md:row-end-2 row-end-3 md:col-start-2 md:col-end-3 col-start-1 col-end-2 flex flex-col justify-center md:items-end items-center gap-5"
+        class="w-full h-fit lg:h-full mt-6 lg:mt-0 lg:row-start-1 lg:row-end-2 lg:col-start-2 lg:col-end-3 flex flex-col justify-center lg:items-end items-center gap-5"
       >
-        <div class="bg-[#6055A5] w-full p-5 md:p-4 text-center rounded-md">
+        <div
+          class="bg-[#6055A5] w-full p-5 md:py-4 md:px-6 text-center rounded-md"
+        >
           <p
-            class="text-white text-sm md:text-base poppins-regular mx-auto w-4/5 md:w-full"
+            class="text-white text-xs md:text-sm lg:text-base poppins-regular mx-auto w-[180px] md:w-full"
           >
             <span class="poppins-semibold opacity-80">Try it free 7 days</span>
             <span class="opacity-70">then $20/mo. there after</span>
@@ -57,7 +59,7 @@
             <input
               type="text"
               placeholder="First Name"
-              class="border-2 border-[#EAE9F1] focus:border-[#B9B6D3] rounded-md focus:opacity-100 focus:outline-none w-full h-14 flex items-center px-4 md:px-8 text-sm md:text-base text-[#3E3C49] [&::-webkit-input-placeholder]:text-[#77767F]"
+              class="border-2 border-[#EAE9F1] focus:border-[#B9B6D3] rounded-md focus:opacity-100 focus:outline-none w-full h-14 flex items-center px-4 md:px-8 text-xs md:text-sm lg:text-base text-[#3E3C49] [&::-webkit-input-placeholder]:text-[#77767F]"
             />
           </div>
 
@@ -65,7 +67,7 @@
             <input
               type="text"
               placeholder="Last Name"
-              class="border-2 border-[#EAE9F1] focus:border-[#B9B6D3] rounded-md focus:opacity-100 focus:outline-none w-full h-14 flex items-center px-4 md:px-8 text-sm md:text-base text-[#3E3C49] [&::-webkit-input-placeholder]:text-[#77767F]"
+              class="border-2 border-[#EAE9F1] focus:border-[#B9B6D3] rounded-md focus:opacity-100 focus:outline-none w-full h-14 flex items-center px-4 md:px-8 text-xs md:text-sm lg:text-base text-[#3E3C49] [&::-webkit-input-placeholder]:text-[#77767F]"
             />
           </div>
 
@@ -73,7 +75,7 @@
             <input
               type="email"
               placeholder="Email"
-              class="border-2 border-[#EAE9F1] focus:border-[#B9B6D3] rounded-md focus:opacity-100 focus:outline-none w-full h-14 flex items-center px-4 md:px-8 text-sm md:text-base text-[#3E3C49] [&::-webkit-input-placeholder]:text-[#77767F]"
+              class="border-2 border-[#EAE9F1] focus:border-[#B9B6D3] rounded-md focus:opacity-100 focus:outline-none w-full h-14 flex items-center px-4 md:px-8 text-xs md:text-sm lg:text-base text-[#3E3C49] [&::-webkit-input-placeholder]:text-[#77767F]"
             />
           </div>
 
@@ -81,7 +83,7 @@
             <input
               type="password"
               placeholder="Password"
-              class="border-2 border-[#EAE9F1] focus:border-[#B9B6D3] rounded-md focus:opacity-100 focus:outline-none w-full h-14 flex items-center px-4 md:px-8 text-sm md:text-base text-[#3E3C49] [&::-webkit-input-placeholder]:text-[#77767F]"
+              class="border-2 border-[#EAE9F1] focus:border-[#B9B6D3] rounded-md focus:opacity-100 focus:outline-none w-full h-14 flex items-center px-4 md:px-8 text-xs md:text-sm lg:text-base text-[#3E3C49] [&::-webkit-input-placeholder]:text-[#77767F]"
             />
           </div>
 
@@ -90,14 +92,17 @@
             class="border-none bg-[#38CC8C] rounded-md py-4 px-6"
           >
             <p
-              class="text-white opacity-90 text-sm md:text-base uppercase poppins-medium"
+              class="text-white opacity-90 text-xs md:text-sm lg:text-base uppercase poppins-medium"
             >
               Claim your free trial
             </p>
           </button>
-          <p class="-mt-2 text-xs md:text-sm text-[#CECBE0]">
+          <p
+            class="-mt-2 mx-auto text-[8px] md:text-xs lg:text-sm text-[#CECBE0] md:w-full w-[260px]"
+          >
             By clicking the button, you are agreeing to our
-            <span class="poppins-semibold text-xs md:text-sm text-[#ff7a7a]"
+            <span
+              class="poppins-semibold text-[8px] md:text-xs lg:text-sm text-[#ff7a7a]"
               >Terms and Services</span
             >
           </p>
