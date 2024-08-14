@@ -24,7 +24,7 @@
       class="h-full md:max-w-6xl max-w-full w-full mx-auto grid md:grid-rows-1 grid-rows-2 md:grid-cols-2 grid-cols-1 py-6 px-4 gap-x-2 lg:gap-x-8"
     >
       <section
-        class="w-full h-full mt-10 md:mt-0 row-start-1 row-end-2 col-start-1 col-end-2 flex flex-col justify-center md:items-start items-center md:gap-10 gap-6"
+        class="w-full h-full -mt-10 md:mt-0 row-start-1 row-end-2 col-start-1 col-end-2 flex flex-col justify-center items-start md:gap-10 gap-6"
       >
         <h1
           class="text-3xl md:text-5xl text-center md:text-left poppins-bold text-white opacity-90"
@@ -40,9 +40,9 @@
         </p>
       </section>
       <section
-        class="w-full h-full mt-10 md:mt-0 md:row-start-1 row-start-2 md:row-end-2 row-end-3 md:col-start-2 md:col-end-3 col-start-1 col-end-2 flex flex-col justify-center md:items-end items-center gap-5"
+        class="w-full h-full -mt-20 md:mt-0 md:row-start-1 row-start-2 md:row-end-2 row-end-3 md:col-start-2 md:col-end-3 col-start-1 col-end-2 flex flex-col justify-center md:items-end items-center gap-5"
       >
-        <div class="bg-[#6055A5] w-full py-3 px-5 text-center rounded-md">
+        <div class="bg-[#6055A5] w-full p-5 text-center rounded-md">
           <p
             class="text-white text-sm md:text-base poppins-regular mx-auto w-4/5 md:w-full"
           >
@@ -84,6 +84,23 @@
               class="border-2 border-[#EAE9F1] focus:border-[#B9B6D3] rounded-md focus:opacity-100 focus:outline-none w-full h-14 flex items-center px-4 md:px-8 text-sm md:text-base text-[#3E3C49] [&::-webkit-input-placeholder]:text-[#77767F]"
             />
           </div>
+
+          <button
+            type="submit"
+            class="border-none bg-[#38CC8C] rounded-md py-4 px-6"
+          >
+            <p
+              class="text-white opacity-90 text-sm md:text-base uppercase poppins-medium"
+            >
+              Claim your free trial
+            </p>
+          </button>
+          <p class="-mt-2 text-xs md:text-sm text-[#CECBE0]">
+            By clicking the button, you are agreeing to our
+            <span class="poppins-semibold text-xs md:text-sm text-[#ff7a7a]"
+              >Terms and Services</span
+            >
+          </p>
         </form>
       </section>
     </main>
